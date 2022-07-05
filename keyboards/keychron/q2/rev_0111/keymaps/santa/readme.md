@@ -1,4 +1,4 @@
-Santa's Keychron Q2 keymap v1.0.0
+# Santa's Keychron Q2 keymap v1.0.0
 
 Migration of mkillewald Q1 keymaps to Q2.
 
