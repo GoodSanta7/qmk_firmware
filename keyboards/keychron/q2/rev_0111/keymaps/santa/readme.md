@@ -19,7 +19,4 @@ Migration of mkillewald Q1 keymaps to Q2.
 
 ## Problems
 * VIA is **NOT** supported. Enabling VIA will somehow crash the keyboard.
-* Even though the default color of `FN_LAYER_COLOR` is set as orange, it appears as yellow in reality.
-* The default settings `caps_lock_light_alphas = true` and `fn_layer_color_enable = true` do not work as intended.
-* The settings cannot be saved, that is, when a cable is disconnected and connected again to the keyboard, previous settings on the Caps Lock and Fn layer will lost.
-* The latency to turn on the lights of Q2 is a bit high when connected with a cable.
+* The settings cannot be saved, that is, when a cable is disconnected and connected again to the keyboard, previous settings on the Caps Lock and Fn layer will be lost. This is due to the fact that EEPROM is not officially [supported](https://github.com/Keychron/qmk_firmware/pull/35#issuecomment-1140593458) for Q2 now. Keychron has its work-around in its own [branch](https://github.com/Keychron/qmk_firmware/tree/playground/keyboards/keychron/q2).
