@@ -16,7 +16,11 @@
 
 #pragma once
 
-// clang-format off
+/* globals */
+extern bool caps_lock_light_tab;
+extern bool caps_lock_light_alphas;
+extern bool fn_layer_transparent_keys_off;
+extern bool fn_layer_color_enable;
 
 enum layers {
     MAC_BASE,
@@ -25,10 +29,3 @@ enum layers {
     _FN2,
     _FN3,
 };
-
-// clang-format on
-
-bool get_caps_lock_light_tab(void);
-bool get_caps_lock_light_alphas(void);
-bool get_fn_layer_transparent_keys_off(void);
-bool get_fn_layer_color_enable(void);
